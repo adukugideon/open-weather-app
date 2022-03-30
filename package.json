@@ -1,0 +1,28 @@
+{
+    "name": "open-weather-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon local.js",
+        "deploy": "serverless deploy"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:adukugideon/open-weather-app.git"
+    },
+    "author": "Gideon Aduku",
+    "license": "ISC",
+    "bugs": {
+        "url": "git@github.com:adukugideon/open-weather-app.git/issues"
+    },
+    "homepage": "git@github.com:adukugideon/open-weather-app.git#readme",
+    "dependencies": {
+        "aws-serverless-express": "^3.4.0",
+        "body-parser": "^1.17.2",
+        "dotenv": "^10.0.0",
+        "ejs": "^3.1.6",
+        "express": "^4.15.3",
+        "request": "^2.81.0"
+    }
+}
