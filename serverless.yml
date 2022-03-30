@@ -1,12 +1,12 @@
-service: my-serverless-app
+service: open-weather-app
 
 provider:
   name: aws
-  runtime: nodejs6.10
+  runtime: nodejs14.x
   memorySize: 128
   timeout: 10
   stage: production
-  region: eu-central-1
+  region: us-east-2
 
 functions:
   api:
